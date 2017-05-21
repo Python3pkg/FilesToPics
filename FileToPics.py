@@ -101,5 +101,5 @@ if __name__ == '__main__':
     file2pics = FileToPics(filePath = '/home/caomingzhu/python/githubppt/file/3-mini.pptx', picPath = '/home/caomingzhu/python/githubppt/images/', fileExt = 'ppt', picExt = 'png')
     res = file2pics.fileToPicture()
     
-    print(json.dumps(res))
+    print((json.dumps(res)))
    
